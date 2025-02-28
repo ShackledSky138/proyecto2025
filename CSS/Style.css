@@ -1,3 +1,21 @@
+h{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 10px;
+    border: 3px; 
+    padding: 10px;
+}
+.contenedor{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid red;
+    border-radius: 15%;
+    background-color: aquamarine;
+}
 span{
     width: 200px;
     height: 200px;
@@ -7,4 +25,11 @@ span{
 label, input{
     display: block;
     margin: 10px;
+}
+input[type="submit"],input[type="reset"]{
+    display: inline;
+}
+section{
+    display: flex;
+    flex-direction: column-reverse;
 }
